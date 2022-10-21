@@ -1,5 +1,16 @@
 # yaml-language-server: $schema=.schema.json
 
+members:
+  admin:
+    - 2color
+    - achingbrain
+    - autonome
+    - galargh
+    - hugomrdias
+    - lidel
+    - protocollabsit
+  member:
+    - hacdias
 repositories:
   actions-pull-directory-from-repo: {}
   example-fork-go-template: {}
@@ -37,6 +48,10 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
+    collaborators:
+      admin:
+        - lidel
+        - SgtPooki
   js-ipfs-http-client-browser-pubsub: {}
   js-ipfs-http-client-bundle-webpack: {}
   js-ipfs-http-client-name-api: {}
