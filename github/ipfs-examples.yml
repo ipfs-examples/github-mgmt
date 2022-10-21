@@ -66,6 +66,7 @@ repositories:
     visibility: public
     vulnerability_alerts: false
   github-mgmt:
+    # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
@@ -82,14 +83,30 @@ repositories:
           strict: true
     default_branch: master
     delete_branch_on_merge: false
+    files:
+      CODEOWNERS:
+        content: |
+          # The ipdx team is responsible for GitHub Management maintenance
+          * @ipfs-examples/ipdx
+          # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
+          # The ipdx team is added here temporarily to witness use patterns in github-mgmt
+          /github/ipfs-examples.yml @ipfs-examples/github-mgmt-stewards @ipfs-examples/ipdx
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    teams:
+      # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
+      maintain:
+        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      push:
+        - github-mgmt stewards
     template:
       owner: protocol
       repository: github-mgmt-template
+    topics:
+      - ipdx
     visibility: public
     vulnerability_alerts: false
   js-ipfs-101:
@@ -808,3 +825,22 @@ repositories:
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+teams:
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiously as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - 2color
+    privacy: closed
+  ipdx:
+    members:
+      maintainer:
+        - galargh
+    privacy: closed
