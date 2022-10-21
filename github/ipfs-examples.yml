@@ -12,37 +12,575 @@ members:
   member:
     - hacdias
 repositories:
-  actions-pull-directory-from-repo: {}
-  example-fork-go-template: {}
-  example-template: {}
-  github-mgmt: {}
-  js-ipfs-101: {}
-  js-ipfs-browser-add-readable-stream: {}
-  js-ipfs-browser-angular: {}
-  js-ipfs-browser-browserify: {}
-  js-ipfs-browser-create-react-app: {}
-  js-ipfs-browser-esbuild: {}
-  js-ipfs-browser-exchange-files: {}
-  js-ipfs-browser-ipns-publish: {}
-  js-ipfs-browser-lit: {}
-  js-ipfs-browser-mfs: {}
-  js-ipfs-browser-nextjs: {}
-  js-ipfs-browser-parceljs: {}
-  js-ipfs-browser-readablestream: {}
-  js-ipfs-browser-script-tag: {}
-  js-ipfs-browser-service-worker: {}
-  js-ipfs-browser-sharing-node-across-tabs: {}
-  js-ipfs-browser-video-streaming: {}
-  js-ipfs-browser-vite: {}
-  js-ipfs-browser-vue: {}
-  js-ipfs-browser-webpack: {}
-  js-ipfs-circuit-relaying: {}
-  js-ipfs-custom-ipfs-repo: {}
-  js-ipfs-custom-ipld-formats: {}
-  js-ipfs-custom-libp2p: {}
+  actions-pull-directory-from-repo:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: A Github Action that can pull changes from a directory of a given
+      repository.
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: false
+  example-fork-go-template:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: This is a template to create a repo to be fork and go based on an
+      example of js-ipfs
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: true
+    visibility: public
+    vulnerability_alerts: false
+  example-template:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Template to create new example from remote source for js-ipfs
+    has_downloads: true
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    is_template: true
+    visibility: public
+    vulnerability_alerts: false
+  github-mgmt:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: master
+    delete_branch_on_merge: false
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    template:
+      owner: protocol
+      repository: github-mgmt-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-101:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of JS-IPFS implementation following the tutorial 101
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-add-readable-stream:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of adding a file as a readable stream using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-angular:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of using Angular with JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-browserify:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of bundling JS-IPFS in the browser using Browserify
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-create-react-app:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of implementation of JS-IPFS using the official create-react-app
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-esbuild:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of bundling JS-IPFS using esbuild
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-exchange-files:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of exchange files using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-ipns-publish:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of publishing to IPNS using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-lit:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of using Lit with JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-mfs:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of using the Mutable File System API using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-nextjs:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of using Next.JS with JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-parceljs:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of bundling JS-IPFS using ParcelJS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-readablestream:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of streaming a video with ReadableStreams using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-script-tag:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: "Example of using JS-IPFS only with native javascript in the
+      browser (without frameworks) "
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-service-worker:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of JS-IPFS using service workers
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-sharing-node-across-tabs:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of sharing node across tabs using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-video-streaming:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of streaming a video using HLS.JS with JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-vite:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of bundling JS-IPFS using Vite
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-vue:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of using Vue.JS with JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-browser-webpack:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of bundling JS-IPFS using Webpack
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-circuit-relaying:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of circuit relaying using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-custom-ipfs-repo:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of how to customize the JS-IPFS repository
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-custom-ipld-formats:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of creating custom IPLD formats using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-custom-libp2p:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of how to make the JS-IPFS configuration to create a libp2p
+      bundle function
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
   js-ipfs-examples:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
     branch_protection:
       master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
@@ -52,13 +590,213 @@ repositories:
       admin:
         - lidel
         - SgtPooki
-  js-ipfs-http-client-browser-pubsub: {}
-  js-ipfs-http-client-bundle-webpack: {}
-  js-ipfs-http-client-name-api: {}
-  js-ipfs-http-client-upload-file: {}
-  js-ipfs-ipfs-client-add-files: {}
-  js-ipfs-run-in-electron: {}
-  js-ipfs-running-multiple-nodes: {}
-  js-ipfs-traverse-ipld-graphs: {}
-  js-ipfs-types-use-ipfs-from-ts: {}
-  js-ipfs-types-use-ipfs-from-typed-js: {}
+    default_branch: master
+    delete_branch_on_merge: true
+    description: Collection of js-ipfs examples
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: true
+  js-ipfs-http-client-browser-pubsub:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of subscribe to a pub/sub topic using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-http-client-bundle-webpack:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of bundling a IPFS client using Webpack
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-http-client-name-api:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of resolving an IPNS name using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-http-client-upload-file:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of uploading a file with an IPFS HTTP client using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-ipfs-client-add-files:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of adding files to a IPFS client using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-run-in-electron:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of JS-IPFS running in Electron
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-running-multiple-nodes:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of running multiple IPFS nodes using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-traverse-ipld-graphs:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of resolving IPLD graphs with the dag API using JS-IPFS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-types-use-ipfs-from-ts:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of integration between JS-IPFS and Typescript
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  js-ipfs-types-use-ipfs-from-typed-js:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Example of integration between JS-IPFS and JSDoc
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
