@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Self-serve Request
+    url: https://github.dev/ipfs-examples/github-mgmt/blob/master/github/ipfs-examples.yml
+    about: Propose a GitHub configuration change by modifying ipfs-examples.yml
