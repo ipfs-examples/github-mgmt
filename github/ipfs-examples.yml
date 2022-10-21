@@ -1,3 +1,49 @@
 # yaml-language-server: $schema=.schema.json
 
-{}
+repositories:
+  actions-pull-directory-from-repo: {}
+  example-fork-go-template: {}
+  example-template: {}
+  github-mgmt: {}
+  js-ipfs-101: {}
+  js-ipfs-browser-add-readable-stream: {}
+  js-ipfs-browser-angular: {}
+  js-ipfs-browser-browserify: {}
+  js-ipfs-browser-create-react-app: {}
+  js-ipfs-browser-esbuild: {}
+  js-ipfs-browser-exchange-files: {}
+  js-ipfs-browser-ipns-publish: {}
+  js-ipfs-browser-lit: {}
+  js-ipfs-browser-mfs: {}
+  js-ipfs-browser-nextjs: {}
+  js-ipfs-browser-parceljs: {}
+  js-ipfs-browser-readablestream: {}
+  js-ipfs-browser-script-tag: {}
+  js-ipfs-browser-service-worker: {}
+  js-ipfs-browser-sharing-node-across-tabs: {}
+  js-ipfs-browser-video-streaming: {}
+  js-ipfs-browser-vite: {}
+  js-ipfs-browser-vue: {}
+  js-ipfs-browser-webpack: {}
+  js-ipfs-circuit-relaying: {}
+  js-ipfs-custom-ipfs-repo: {}
+  js-ipfs-custom-ipld-formats: {}
+  js-ipfs-custom-libp2p: {}
+  js-ipfs-examples:
+    branch_protection:
+      master:
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+  js-ipfs-http-client-browser-pubsub: {}
+  js-ipfs-http-client-bundle-webpack: {}
+  js-ipfs-http-client-name-api: {}
+  js-ipfs-http-client-upload-file: {}
+  js-ipfs-ipfs-client-add-files: {}
+  js-ipfs-run-in-electron: {}
+  js-ipfs-running-multiple-nodes: {}
+  js-ipfs-traverse-ipld-graphs: {}
+  js-ipfs-types-use-ipfs-from-ts: {}
+  js-ipfs-types-use-ipfs-from-typed-js: {}
