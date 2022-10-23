@@ -75,8 +75,17 @@ repositories:
     auto_init: false
     branch_protection:
       master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
         required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
           required_approving_review_count: 1
+          restrict_dismissals: false
         required_status_checks:
           contexts:
             - Comment
@@ -91,6 +100,7 @@ repositories:
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/ipfs-examples.yml @ipfs-examples/github-mgmt-stewards @ipfs-examples/ipdx
+        overwrite_on_create: false
     has_downloads: true
     has_issues: true
     has_projects: true
@@ -840,6 +850,7 @@ teams:
         - 2color
     privacy: closed
   ipdx:
+    create_default_maintainer: false
     members:
       maintainer:
         - galargh
