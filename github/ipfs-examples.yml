@@ -4,11 +4,11 @@ members:
   admin:
     - 2color
     - achingbrain
+    - andyschwab-admin
     - autonome
     - galargh
     - hugomrdias
     - lidel
-    - protocollabsit
   member:
     - hacdias
 repositories:
