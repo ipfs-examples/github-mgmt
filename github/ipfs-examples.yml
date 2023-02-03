@@ -120,6 +120,83 @@ repositories:
       - ipdx
     visibility: public
     vulnerability_alerts: false
+  helia-101:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: Getting started with Helia
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  helia-cjs:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: Using Helia from CommonJS
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
+  helia-examples:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to do most anything with your Helia node
+    has_downloads: true
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    visibility: public
+    vulnerability_alerts: false
+  helia-webpack:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: Bundle Helia with Webpack
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
   js-ipfs-101:
     allow_auto_merge: false
     allow_merge_commit: true
@@ -838,6 +915,7 @@ repositories:
     vulnerability_alerts: false
 teams:
   Alumni:
+    create_default_maintainer: false
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
