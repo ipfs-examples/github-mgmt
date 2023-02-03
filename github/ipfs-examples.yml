@@ -8,10 +8,10 @@ members:
     - autonome
     - BigLep
     - galargh
-    - hugomrdias
     - lidel
   member:
     - hacdias
+    - hugomrdias
 repositories:
   actions-pull-directory-from-repo:
     allow_auto_merge: false
