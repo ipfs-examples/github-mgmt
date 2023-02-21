@@ -12,6 +12,7 @@ members:
   member:
     - hacdias
     - hugomrdias
+    - TheDiscordian
 repositories:
   actions-pull-directory-from-repo:
     allow_auto_merge: false
