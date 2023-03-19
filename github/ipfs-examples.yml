@@ -5,6 +5,7 @@ members:
     - 2color
     - achingbrain
     - andyschwab-admin
+    - aschmahmann
     - autonome
     - BigLep
     - galargh
@@ -13,6 +14,7 @@ members:
   member:
     - hacdias
     - hugomrdias
+    - whizzzkid
 repositories:
   actions-pull-directory-from-repo:
     allow_auto_merge: false
@@ -176,6 +178,9 @@ repositories:
     has_projects: false
     has_wiki: false
     is_template: false
+    teams:
+      maintain:
+        - ipjs
     visibility: public
     vulnerability_alerts: false
   helia-webpack:
@@ -936,4 +941,13 @@ teams:
     members:
       maintainer:
         - galargh
+    privacy: closed
+  ipjs:
+    description: Interplanetary JavaScript Developers
+    members:
+      maintainer:
+        - achingbrain
+        - SgtPooki
+      member:
+        - whizzzkid
     privacy: closed
