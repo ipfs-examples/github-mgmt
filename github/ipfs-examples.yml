@@ -203,6 +203,23 @@ repositories:
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+  ipns-publisher-api:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: A Helia node with a custom API for managing & publishing IPNS names
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: false
   js-ipfs-101:
     allow_auto_merge: false
     allow_merge_commit: true
