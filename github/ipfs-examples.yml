@@ -163,6 +163,46 @@ repositories:
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+  helia-electron:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Run Helia in an Electron app
+    has_downloads: true
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: true
+  helia-esbuild:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Bundle Helia with esbuild
+    has_downloads: true
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: true
   helia-examples:
     allow_auto_merge: false
     allow_merge_commit: false
@@ -171,7 +211,7 @@ repositories:
     archived: false
     auto_init: false
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: How to do most anything with your Helia node
     has_downloads: true
     has_issues: true
@@ -183,6 +223,86 @@ repositories:
         - ipjs
     visibility: public
     vulnerability_alerts: false
+  helia-nextjs:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Using Helia with nextjs
+    has_downloads: true
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: true
+  helia-script-tag:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Using Helia in the browser via a script tag
+    has_downloads: true
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: true
+  helia-vite:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Using Helia with vite and react
+    has_downloads: true
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: true
+  helia-vue:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Using Helia with vue
+    has_downloads: true
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: true
   helia-webpack:
     allow_auto_merge: false
     allow_merge_commit: false
