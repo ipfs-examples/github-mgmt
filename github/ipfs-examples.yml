@@ -1056,6 +1056,24 @@ repositories:
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+  test-ipfs-example:
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: A test suite for testing examples using playwright for browsers and
+      simple output matching for node
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: true
 teams:
   Alumni:
     create_default_maintainer: false
