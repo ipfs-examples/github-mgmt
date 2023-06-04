@@ -160,7 +160,7 @@ repositories:
     topics:
       - ipdx
     visibility: public
-    vulnerability_alerts: false
+    vulnerability_alerts: true
   helia-101:
     advanced_security: false
     allow_auto_merge: false
