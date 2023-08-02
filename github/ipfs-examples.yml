@@ -219,6 +219,35 @@ repositories:
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+  helia-create-car:
+    advanced_security: false
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    allow_update_branch: false
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: Bundle Helia with Webpack
+    has_discussions: false
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: false
   helia-electron:
     advanced_security: false
     allow_auto_merge: false
@@ -452,35 +481,6 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   helia-webpack:
-    advanced_security: false
-    allow_auto_merge: false
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: true
-    allow_update_branch: false
-    archived: false
-    auto_init: false
-    default_branch: main
-    delete_branch_on_merge: true
-    description: Bundle Helia with Webpack
-    has_discussions: false
-    has_downloads: true
-    has_issues: false
-    has_projects: false
-    has_wiki: false
-    is_template: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    template:
-      owner: ipfs-examples
-      repository: example-fork-go-template
-    visibility: public
-    vulnerability_alerts: false
-  helia-create-car:
     advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: false
