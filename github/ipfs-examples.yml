@@ -247,7 +247,7 @@ repositories:
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
-    vulnerability_alerts: false
+    vulnerability_alerts: true
   helia-electron:
     advanced_security: false
     allow_auto_merge: false
