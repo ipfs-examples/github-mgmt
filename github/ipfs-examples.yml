@@ -335,7 +335,7 @@ repositories:
         - ipjs
     visibility: public
     vulnerability_alerts: false
-  helia-jest:
+  helia-jest-typescript:
     advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
@@ -346,7 +346,7 @@ repositories:
     auto_init: false
     default_branch: main
     delete_branch_on_merge: false
-    description: Test Helia with Jest
+    description: Test Helia with Jest and TypeScript
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -364,7 +364,7 @@ repositories:
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
-  helia-jest-typescript:
+  helia-jest:
     advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
@@ -375,7 +375,7 @@ repositories:
     auto_init: false
     default_branch: main
     delete_branch_on_merge: false
-    description: Test Helia with Jest and TypeScript
+    description: Test Helia with Jest
     has_discussions: false
     has_downloads: true
     has_issues: true
