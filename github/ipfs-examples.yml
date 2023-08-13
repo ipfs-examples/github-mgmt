@@ -126,7 +126,7 @@ repositories:
             - Comment
           strict: true
     default_branch: master
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     files:
       CODEOWNERS:
         content: |
