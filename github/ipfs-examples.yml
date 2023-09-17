@@ -679,6 +679,11 @@ repositories:
     is_template: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
+    pages:
+      cname: helia.js.org
+      source:
+        branch: main
+        path: /
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
