@@ -155,8 +155,8 @@ repositories:
       push:
         - github-mgmt stewards
     template:
-      owner: protocol
-      repository: github-mgmt-template
+      owner: ipdxco
+      repository: github-as-code
     topics:
       - ipdx
     visibility: public
