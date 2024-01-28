@@ -13,7 +13,6 @@ members:
     - sgtpooki
   member:
     - hacdias
-    - hugomrdias
     - whizzzkid
 repositories:
   actions-pull-directory-from-repo:
