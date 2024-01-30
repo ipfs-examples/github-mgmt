@@ -10,7 +10,7 @@ members:
     - BigLep
     - galargh
     - lidel
-    - sgtpooki
+    - SgtPooki
   member:
     - hacdias
     - whizzzkid
@@ -1444,10 +1444,6 @@ repositories:
     vulnerability_alerts: false
   js-ipfs-examples:
     advanced_security: false
-    allow_auto_merge: false
-    allow_merge_commit: false
-    allow_rebase_merge: false
-    allow_squash_merge: true
     allow_update_branch: false
     archived: true
     auto_init: false
@@ -1471,7 +1467,6 @@ repositories:
         - lidel
         - SgtPooki
     default_branch: master
-    delete_branch_on_merge: true
     description: Collection of js-ipfs examples
     has_discussions: false
     has_downloads: true
@@ -1479,12 +1474,8 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     vulnerability_alerts: false
   js-ipfs-http-client-browser-pubsub:
@@ -1806,12 +1797,10 @@ repositories:
     vulnerability_alerts: true
 teams:
   Alumni:
-    create_default_maintainer: false
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    create_default_maintainer: false
     description: Users that are effectively org admins
     members:
       # WARN: membership here should be treated exactly as cautiously as having an org admin role
@@ -1822,7 +1811,6 @@ teams:
         - 2color
     privacy: closed
   ipdx:
-    create_default_maintainer: false
     members:
       maintainer:
         - galargh
