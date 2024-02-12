@@ -12,8 +12,8 @@ members:
     - autonome
     - BigLep
     - hacdias
-    - whizzzkid
     - SgtPooki
+    - whizzzkid
 repositories:
   actions-pull-directory-from-repo:
     advanced_security: false
