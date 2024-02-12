@@ -5,15 +5,15 @@ members:
     - 2color
     - achingbrain
     - andyschwab-admin
+    - galargh
+    - lidel
+  member:
     - aschmahmann
     - autonome
     - BigLep
-    - galargh
-    - lidel
-    - SgtPooki
-  member:
     - hacdias
     - whizzzkid
+    - SgtPooki
 repositories:
   actions-pull-directory-from-repo:
     advanced_security: false
