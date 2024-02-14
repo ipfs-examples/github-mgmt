@@ -5,14 +5,14 @@ members:
     - 2color
     - achingbrain
     - andyschwab-admin
+    - galargh
+    - lidel
+  member:
     - aschmahmann
     - autonome
     - BigLep
-    - galargh
-    - lidel
-    - SgtPooki
-  member:
     - hacdias
+    - SgtPooki
     - whizzzkid
 repositories:
   actions-pull-directory-from-repo:
