@@ -40,6 +40,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
   example-fork-go-template:
@@ -67,6 +70,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
   example-template:
@@ -93,6 +99,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
   github-mgmt:
@@ -184,6 +193,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -213,6 +225,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -242,6 +257,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -271,6 +289,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -300,6 +321,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -332,6 +356,8 @@ repositories:
     teams:
       maintain:
         - ipjs
+      pull:
+        - github-mgmt stewards
     topics:
       - ipfs-helia
     visibility: public
@@ -360,6 +386,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -389,6 +418,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -418,6 +450,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -447,6 +482,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -476,6 +514,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -505,6 +546,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -534,6 +578,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -563,6 +610,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -592,6 +642,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -621,6 +674,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -650,6 +706,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -679,6 +738,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -716,6 +778,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
     vulnerability_alerts: true
   ipns-publisher-api:
@@ -742,6 +807,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
   js-ipfs-101:
@@ -768,6 +836,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -797,6 +868,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -826,6 +900,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -855,6 +932,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -884,6 +964,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -913,6 +996,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -942,6 +1028,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -971,6 +1060,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1000,6 +1092,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1029,6 +1124,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1058,6 +1156,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1087,6 +1188,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1116,6 +1220,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1146,6 +1253,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1175,6 +1285,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1204,6 +1317,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1233,6 +1349,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1262,6 +1381,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1291,6 +1413,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1320,6 +1445,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1349,6 +1477,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1378,6 +1509,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1407,6 +1541,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1437,6 +1574,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1485,6 +1625,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
   js-ipfs-http-client-browser-pubsub:
@@ -1511,6 +1654,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1540,6 +1686,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1569,6 +1718,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1598,6 +1750,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1627,6 +1782,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1656,6 +1814,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1685,6 +1846,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1714,6 +1878,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1743,6 +1910,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1772,6 +1942,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
@@ -1802,6 +1975,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
     vulnerability_alerts: true
 teams:
@@ -1829,7 +2005,7 @@ teams:
     members:
       maintainer:
         - achingbrain
-        - SgtPooki
       member:
+        - SgtPooki
         - whizzzkid
     privacy: closed
