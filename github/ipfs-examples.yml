@@ -346,6 +346,7 @@ repositories:
     has_issues: true
     has_projects: false
     has_wiki: false
+    homepage_url: https://verified-fetch.vercel.app
     is_template: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
