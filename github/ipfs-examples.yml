@@ -1936,10 +1936,10 @@ repositories:
     vulnerability_alerts: true
 teams:
   Alumni:
-    privacy: closed
     members:
       member:
         - whizzzkid
+    privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
