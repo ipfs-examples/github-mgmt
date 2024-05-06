@@ -13,6 +13,7 @@ members:
     - BigLep
     - hacdias
     - SgtPooki
+    - whizzzkid
 repositories:
   actions-pull-directory-from-repo:
     advanced_security: false
@@ -1936,6 +1937,9 @@ repositories:
 teams:
   Alumni:
     privacy: closed
+    members:
+      member:
+        - whizzzkid
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
