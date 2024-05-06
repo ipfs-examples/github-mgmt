@@ -756,9 +756,6 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
-    collaborators:
-      admin:
-        - whizzzkid
     default_branch: main
     delete_branch_on_merge: false
     description: placeholder
@@ -1931,12 +1928,17 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - ipjs
       pull:
         - github-mgmt stewards
     visibility: public
     vulnerability_alerts: true
 teams:
   Alumni:
+    members:
+      member:
+        - whizzzkid
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
@@ -1962,5 +1964,4 @@ teams:
         - achingbrain
       member:
         - SgtPooki
-        - whizzzkid
     privacy: closed
