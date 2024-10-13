@@ -200,6 +200,35 @@ repositories:
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+  helia-browser-verified-fetch:
+    advanced_security: false
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    allow_update_branch: false
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Browser Verified Retrieval with @helia/verified-fetch
+    has_discussions: false
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: true
   helia-cjs:
     advanced_security: false
     allow_auto_merge: false
@@ -339,13 +368,12 @@ repositories:
     auto_init: false
     default_branch: main
     delete_branch_on_merge: true
-    description: How to do most anything with your Helia node
+    description: Ready-to-run Helia examples for Node.js and the browser
     has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: false
     has_wiki: false
-    homepage_url: https://verified-fetch.vercel.app
     is_template: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -359,7 +387,10 @@ repositories:
       pull:
         - github-mgmt stewards
     topics:
+      - helia
       - ipfs-helia
+      - ipfs
+      - js-libp2p
     visibility: public
     vulnerability_alerts: false
   helia-jest-typescript:
@@ -549,6 +580,35 @@ repositories:
     teams:
       pull:
         - github-mgmt stewards
+    template:
+      owner: ipfs-examples
+      repository: example-fork-go-template
+    visibility: public
+    vulnerability_alerts: true
+  helia-remote-pinning:
+    advanced_security: false
+    allow_auto_merge: false
+    allow_merge_commit: false
+    allow_rebase_merge: false
+    allow_squash_merge: true
+    allow_update_branch: false
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: How to pin content to a remote IPFS pinning service using Helia
+    has_discussions: false
+    has_downloads: true
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     template:
       owner: ipfs-examples
       repository: example-fork-go-template
