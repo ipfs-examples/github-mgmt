@@ -25,8 +25,7 @@ repositories:
     auto_init: false
     default_branch: main
     delete_branch_on_merge: false
-    description: A Github Action that can pull changes from a directory of a given
-      repository.
+    description: A Github Action that can pull changes from a directory of a given repository.
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -55,8 +54,7 @@ repositories:
     auto_init: false
     default_branch: main
     delete_branch_on_merge: true
-    description: This is a template to create a repo to be fork and go based on an
-      example of js-ipfs
+    description: This is a template to create a repo to be fork and go based on an example of js-ipfs
     has_discussions: false
     has_downloads: true
     has_issues: false
@@ -1296,8 +1294,7 @@ repositories:
     auto_init: false
     default_branch: main
     delete_branch_on_merge: false
-    description: "Example of using JS-IPFS only with native javascript in the
-      browser (without frameworks) "
+    description: "Example of using JS-IPFS only with native javascript in the browser (without frameworks) "
     has_discussions: false
     has_downloads: true
     has_issues: false
@@ -1617,8 +1614,7 @@ repositories:
     auto_init: false
     default_branch: main
     delete_branch_on_merge: false
-    description: Example of how to make the JS-IPFS configuration to create a libp2p
-      bundle function
+    description: Example of how to make the JS-IPFS configuration to create a libp2p bundle function
     has_discussions: false
     has_downloads: true
     has_issues: false
@@ -1972,8 +1968,7 @@ repositories:
     auto_init: false
     default_branch: main
     delete_branch_on_merge: true
-    description: A test suite for testing examples using playwright for browsers and
-      simple output matching for node
+    description: A test suite for testing examples using playwright for browsers and simple output matching for node
     has_discussions: false
     has_downloads: true
     has_issues: true
