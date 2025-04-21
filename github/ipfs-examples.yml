@@ -12,6 +12,7 @@ members:
     - BigLep
     - hacdias
     - SgtPooki
+    - web3-bot
     - whizzzkid
 repositories:
   actions-pull-directory-from-repo:
