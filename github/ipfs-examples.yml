@@ -953,7 +953,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -988,7 +988,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1023,7 +1023,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1058,7 +1058,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1093,7 +1093,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1128,7 +1128,7 @@ repositories:
     allow_rebase_merge: false
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1163,7 +1163,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1198,7 +1198,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1233,7 +1233,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1268,7 +1268,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1303,7 +1303,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1338,7 +1338,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1373,7 +1373,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1408,7 +1408,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1443,7 +1443,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1478,7 +1478,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1513,7 +1513,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1548,7 +1548,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1583,7 +1583,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1618,7 +1618,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1723,7 +1723,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1758,7 +1758,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1795,7 +1795,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1830,7 +1830,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1865,7 +1865,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1900,7 +1900,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1935,7 +1935,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -1970,7 +1970,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -2005,7 +2005,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -2075,7 +2075,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
@@ -2110,7 +2110,7 @@ repositories:
     allow_rebase_merge: true
     allow_squash_merge: true
     allow_update_branch: false
-    archived: false
+    archived: true
     auto_init: false
     collaborators:
       push:
