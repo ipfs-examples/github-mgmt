@@ -86,6 +86,7 @@ jobs:
         run: |
           echo "{}" > $TF_WORKSPACE.tfstate.json
           terraform apply -refresh-only -auto-approve -lock=$TF_LOCK
+        working-directory: terraform
       - name: Pull terraform state
         run: |
           terraform show -json > $TF_WORKSPACE.tfstate.json
