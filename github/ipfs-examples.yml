@@ -47,6 +47,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   example-fork-go-template:
     advanced_security: false
     allow_auto_merge: false
@@ -79,6 +80,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   example-template:
     advanced_security: false
     allow_auto_merge: false
@@ -111,6 +113,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
@@ -127,6 +130,8 @@ repositories:
         allows_force_pushes: false
         blocks_creations: false
         enforce_admins: false
+        force_push_bypassers:
+          - /galargh
         lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
@@ -134,6 +139,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
+          require_last_push_approval: false
           required_approving_review_count: 1
           restrict_dismissals: false
         required_status_checks:
@@ -173,12 +179,14 @@ repositories:
       push:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipdxco
       repository: github-as-code
     topics:
       - ipdx
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-101:
     advanced_security: false
     allow_auto_merge: false
@@ -210,10 +218,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   helia-browser-verified-fetch:
     advanced_security: false
     allow_auto_merge: false
@@ -242,10 +252,12 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-cjs:
     advanced_security: false
     allow_auto_merge: false
@@ -277,10 +289,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   helia-create-car:
     advanced_security: false
     allow_auto_merge: false
@@ -312,10 +326,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-electron:
     advanced_security: false
     allow_auto_merge: false
@@ -347,10 +363,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-esbuild:
     advanced_security: false
     allow_auto_merge: false
@@ -382,10 +400,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-examples:
     advanced_security: false
     allow_auto_merge: false
@@ -425,6 +445,7 @@ repositories:
       - js-libp2p
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   helia-jest-typescript:
     advanced_security: false
     allow_auto_merge: false
@@ -456,10 +477,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-jest:
     advanced_security: false
     allow_auto_merge: false
@@ -491,10 +514,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-lan-discovery:
     advanced_security: false
     allow_auto_merge: false
@@ -526,10 +551,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-nestjs:
     advanced_security: false
     allow_auto_merge: false
@@ -561,10 +588,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-nextjs:
     advanced_security: false
     allow_auto_merge: false
@@ -596,10 +625,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-parcel:
     advanced_security: false
     allow_auto_merge: false
@@ -631,10 +662,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-remote-pinning:
     advanced_security: false
     allow_auto_merge: false
@@ -663,10 +696,12 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-script-tag:
     advanced_security: false
     allow_auto_merge: false
@@ -698,10 +733,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-ts-node:
     advanced_security: false
     allow_auto_merge: false
@@ -733,10 +770,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-typescript:
     advanced_security: false
     allow_auto_merge: false
@@ -768,10 +807,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-vite:
     advanced_security: false
     allow_auto_merge: false
@@ -803,10 +844,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-vue:
     advanced_security: false
     allow_auto_merge: false
@@ -838,10 +881,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   helia-webpack:
     advanced_security: false
     allow_auto_merge: false
@@ -873,10 +918,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   helia:
     advanced_security: false
     allow_auto_merge: false
@@ -901,6 +948,7 @@ repositories:
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     pages:
+      build_type: legacy
       cname: helia.js.org
       source:
         branch: main
@@ -914,6 +962,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
   ipns-publisher-api:
     advanced_security: false
     allow_auto_merge: false
@@ -946,6 +995,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   js-ipfs-101:
     archived: true
   js-ipfs-browser-add-readable-stream:
@@ -1017,10 +1067,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   js-ipfs-custom-ipfs-repo:
     advanced_security: false
     allow_auto_merge: false
@@ -1052,10 +1104,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   js-ipfs-custom-ipld-formats:
     archived: true
   js-ipfs-custom-libp2p:
@@ -1107,10 +1161,12 @@ repositories:
       pull:
         - github-mgmt stewards
     template:
+      include_all_branches: false
       owner: ipfs-examples
       repository: example-fork-go-template
     visibility: public
     vulnerability_alerts: false
+    web_commit_signoff_required: false
   js-ipfs-types-use-ipfs-from-ts:
     archived: true
   js-ipfs-types-use-ipfs-from-typed-js:
@@ -1149,6 +1205,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
     vulnerability_alerts: true
+    web_commit_signoff_required: false
 teams:
   Alumni:
     members:
