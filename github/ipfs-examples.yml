@@ -31,7 +31,7 @@ repositories:
     delete_branch_on_merge: false
     description: A Github Action that can pull changes from a directory of a given repository.
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: true
     has_wiki: true
@@ -64,7 +64,7 @@ repositories:
     delete_branch_on_merge: true
     description: This is a template to create a repo to be fork and go based on an example of js-ipfs
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -97,7 +97,7 @@ repositories:
     delete_branch_on_merge: false
     description: Template to create new example from remote source for js-ipfs
     has_discussions: true
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -161,7 +161,7 @@ repositories:
           /github/ipfs-examples.yml @ipfs-examples/github-mgmt-stewards @ipfs-examples/ipdx
         overwrite_on_create: false
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: true
     has_wiki: true
@@ -203,7 +203,7 @@ repositories:
     delete_branch_on_merge: true
     description: Getting started with Helia
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -240,7 +240,7 @@ repositories:
     delete_branch_on_merge: false
     description: Browser Verified Retrieval with @helia/verified-fetch
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: true
     has_wiki: true
@@ -274,7 +274,7 @@ repositories:
     delete_branch_on_merge: true
     description: Using Helia from CommonJS
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -311,7 +311,7 @@ repositories:
     delete_branch_on_merge: true
     description: Bundle Helia with Webpack
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -348,7 +348,7 @@ repositories:
     delete_branch_on_merge: false
     description: Run Helia in an Electron app
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -385,7 +385,7 @@ repositories:
     delete_branch_on_merge: false
     description: Bundle Helia with esbuild
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -422,7 +422,7 @@ repositories:
     delete_branch_on_merge: true
     description: Ready-to-run Helia examples for Node.js and the browser
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -462,7 +462,7 @@ repositories:
     delete_branch_on_merge: false
     description: Test Helia with Jest and TypeScript
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -499,7 +499,7 @@ repositories:
     delete_branch_on_merge: false
     description: Test Helia with Jest
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -536,7 +536,7 @@ repositories:
     delete_branch_on_merge: false
     description: Get two helia nodes to connect on LAN without supplying address
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -573,7 +573,7 @@ repositories:
     delete_branch_on_merge: false
     description: Using Helia with NestJS
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -610,7 +610,7 @@ repositories:
     delete_branch_on_merge: false
     description: Using Helia with nextjs
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -647,7 +647,7 @@ repositories:
     delete_branch_on_merge: false
     description: Bundle Helia with parcel
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -684,7 +684,7 @@ repositories:
     delete_branch_on_merge: true
     description: How to pin content to a remote IPFS pinning service using Helia
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -718,7 +718,7 @@ repositories:
     delete_branch_on_merge: false
     description: Using Helia in the browser via a script tag
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -755,7 +755,7 @@ repositories:
     delete_branch_on_merge: false
     description: Running Helia with ts-node
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -792,7 +792,7 @@ repositories:
     delete_branch_on_merge: false
     description: Building Helia with TypeScript
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -829,7 +829,7 @@ repositories:
     delete_branch_on_merge: false
     description: Using Helia with vite and react
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -866,7 +866,7 @@ repositories:
     delete_branch_on_merge: false
     description: Using Helia with vue
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: false
     has_wiki: false
@@ -903,7 +903,7 @@ repositories:
     delete_branch_on_merge: true
     description: Bundle Helia with Webpack
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -940,7 +940,7 @@ repositories:
     delete_branch_on_merge: false
     description: placeholder
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: true
     has_wiki: true
@@ -979,7 +979,7 @@ repositories:
     delete_branch_on_merge: false
     description: A Helia node with a custom API for managing & publishing IPNS names
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: true
     has_wiki: true
@@ -1052,7 +1052,7 @@ repositories:
     delete_branch_on_merge: false
     description: Example of circuit relaying using JS-IPFS
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -1089,7 +1089,7 @@ repositories:
     delete_branch_on_merge: false
     description: Example of how to customize the JS-IPFS repository
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -1146,7 +1146,7 @@ repositories:
     delete_branch_on_merge: false
     description: Example of resolving IPLD graphs with the dag API using JS-IPFS
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: false
     has_projects: false
     has_wiki: false
@@ -1187,7 +1187,7 @@ repositories:
     delete_branch_on_merge: true
     description: A test suite for testing examples using playwright for browsers and simple output matching for node
     has_discussions: false
-    has_downloads: true
+    has_downloads: false
     has_issues: true
     has_projects: true
     has_wiki: false
