@@ -23,6 +23,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: A Github Action that can pull changes from a directory of a given repository.
@@ -53,6 +56,9 @@ repositories:
     allow_update_branch: true
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: This is a template to create a repo to be fork and go based on an example of js-ipfs
@@ -83,6 +89,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Template to create new example from remote source for js-ipfs
@@ -136,6 +145,9 @@ repositories:
           contexts:
             - Comment
           strict: true
+    collaborators:
+      push:
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     files:
@@ -183,6 +195,9 @@ repositories:
     allow_update_branch: true
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Getting started with Helia
@@ -217,6 +232,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Browser Verified Retrieval with @helia/verified-fetch
@@ -248,6 +266,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Using Helia from CommonJS
@@ -282,6 +303,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Bundle Helia with Webpack
@@ -316,6 +340,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Run Helia in an Electron app
@@ -350,6 +377,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Bundle Helia with esbuild
@@ -384,6 +414,9 @@ repositories:
     allow_update_branch: true
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Ready-to-run Helia examples for Node.js and the browser
@@ -421,6 +454,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Test Helia with Jest and TypeScript
@@ -455,6 +491,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Test Helia with Jest
@@ -489,6 +528,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Get two helia nodes to connect on LAN without supplying address
@@ -523,6 +565,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Using Helia with NestJS
@@ -557,6 +602,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Using Helia with nextjs
@@ -591,6 +639,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Bundle Helia with parcel
@@ -625,6 +676,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: How to pin content to a remote IPFS pinning service using Helia
@@ -656,6 +710,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Using Helia in the browser via a script tag
@@ -690,6 +747,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Running Helia with ts-node
@@ -724,6 +784,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Building Helia with TypeScript
@@ -758,6 +821,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Using Helia with vite and react
@@ -792,6 +858,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Using Helia with vue
@@ -826,6 +895,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Bundle Helia with Webpack
@@ -860,6 +932,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: placeholder
@@ -896,6 +971,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: A Helia node with a custom API for managing & publishing IPNS names
@@ -966,6 +1044,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Example of circuit relaying using JS-IPFS
@@ -1000,6 +1081,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Example of how to customize the JS-IPFS repository
@@ -1054,6 +1138,9 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Example of resolving IPLD graphs with the dag API using JS-IPFS
@@ -1092,6 +1179,9 @@ repositories:
     allow_update_branch: true
     archived: false
     auto_init: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: A test suite for testing examples using playwright for browsers and simple output matching for node
